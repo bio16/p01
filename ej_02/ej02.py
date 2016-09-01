@@ -6,6 +6,7 @@ import igraph
 import pandas as pd
 import random
 import matplotlib.pyplot as plt
+import numpy as np
 
 # ------- Cargo la informacion del problema ------------- #
 
@@ -77,6 +78,10 @@ igraph.plot(graph, layout = layout, target = 'Star.eps')
 # ----- Parte b ------ #
 
 # Cuento la cantidad de especies del mismo género
+
+number_of_vertices = len(graph.vs)
+number_of_links = len(graph.es)
+
 genders = {}
 genders['f'] = 0
 genders['m'] = 0
@@ -96,6 +101,9 @@ for vs in graph.vs:
 # Real gender links es los links entre géneros de la red real
 real_gender_links = inter_gender_links / 2
 
+print u'Fracción de enlaces entre géneros: ' + str(float(real_gender_links) / number_of_links)
+
+print u'Fracción de enlaces entre géneros según hipótesis nula: ' + str(2.0 * genders['m'] * genders['f'] / (number_of_vertices * number_of_vertices))
 
 # Paso a sortear los géneros entre los vértices manteniendo
 # la topología de la red inalterable. 
@@ -107,7 +115,7 @@ list_of_genders = ['m'] * genders['m'] + ['f'] * genders['f'] + \
 
 inter_gender_links_data = []
 
-for conf in range(100000):
+for conf in range(1000000):
 
     random.shuffle(list_of_genders)
     i = 0
@@ -125,11 +133,21 @@ for conf in range(100000):
 
     inter_gender_links_data.append(inter_gender_links / 2)
 
-plt.hist(inter_gender_links_data, range = [40, 90], bins = 50, normed = True, label = u'Distribución nula')
+print u'Valor medio y desviación de la distribución: '
+print np.mean(inter_gender_links_data)/number_of_links,
+print np.std(inter_gender_links_data)/number_of_links
+
+
+plt.ion()
+plt.hist(inter_gender_links_data, range = [39.5, 89.5], bins = 50, normed = True, label = u'Distribución nula')
 plt.plot([real_gender_links, real_gender_links], [0.0, 0.05], '.-', markersize = 15, label = 'Red real')
 plt.legend(loc = 2)
 plt.xlabel(u'# de Links entre géneros')
+
+plt.grid('on')
 plt.savefig('Histrograma_b.eps')
+plt.yscale('log')
+plt.savefig('Histrograma_b_log.eps')
 plt.show()
 
 """
