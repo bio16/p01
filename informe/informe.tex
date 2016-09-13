@@ -3,18 +3,47 @@
 \selectlanguage{spanish}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{tabularx}
+\usepackage[font=small,labelfont=bf]{caption}
+\usepackage{subcaption}
+\usepackage{authblk}
+
+\captionsetup[table]{name=Tabla}
+\renewcommand{\thetable}{\Roman{figure}}
+\newcommand{\mean}[1]{\left\langle#1\right\rangle}
+%\newcommand{\eqref}[1]{Ec.~\ref{#1}}
 
 \begin{document}
+\begin{titlepage}
+    \centering
+    {\scshape\LARGE Universidad de Buenos Aires \par}
+    \vspace{1cm}
+    {\scshape\Large Informe 1\par}
+    \vspace{1.5cm}
+    {\huge\bfseries Redes Complejas\par}
+    \vspace{2cm}
+    {\Large\itshape Ra\'ul Barriga\par}
+    {\Large\itshape Mariela Celis\par}
+    {\Large\itshape Jimmy Mas\'ias\par}
+    {\Large\itshape Sebast\'ian Pinto\par}
 
+    \vfill
+
+    \vfill
+
+                                                    % Bottom of the page
+    {\large \today\par}
+\end{titlepage}
     %\input{intro}
 
-    %\input{mariela}
+\input{mariela}
 
-    \input{seba}
+\input{seba}
 
 %    \input{jimmy}
 
 %    \input{raul}
 
-    
+
 \end{document}
