@@ -1,69 +1,38 @@
 import numpy as np
 import matplotlib.pyplot as plt
+import argparse as arg
 import igraph 
+import networkx as nx
 
+argparser = arg.ArgumentParser(description='')
+argparser.add_argument('file',help='graph file')
+argparser.add_argument('--plot','-p',help='plot graph',action='store_true')
 
+args = argparser.parse_args()
+filename = args.file.split('/')[-1]
 
-ap_ms = igraph.Graph.Read_Ncol('yeast_AP-MS.txt')
-lit = igraph.Graph.Read_Ncol('yeast_LIT.txt')
-y2h = igraph.Graph.Read_Ncol('yeast_Y2H.txt')
+grafo = igraph.Graph.Read_Ncol(args.file)
 
-#igraph.plot(ap_ms)
-#igraph.plot(lit)
-#igraph.plot(y2h)
-
-
-print('numero de nodos ap-ms:',ap_ms.vcount())
-print('numero de nodos y2h:  ',y2h.vcount())
-print('numero de nodos lit:  ',lit.vcount())
-
+# Imprime en pantalla los observables del grafo
+print('Nombre del archivo:', args.file)
+print()
+print('es dirigido?:',grafo.is_directed())
+print('es simple?:',grafo.is_simple())
+print('numero de nodos :',grafo.vcount())
+print('numero de links :',grafo.ecount())
+print('numero de k-out :',np.sum(grafo.outdegree())/grafo.vcount())
+print('numero de k-in : ',np.sum(grafo.indegree())/grafo.vcount())
+print('grado maximo [in/out]:',np.max(grafo.indegree()),np.max(grafo.outdegree()))
+print('grado minimo [in/out]:',np.min(grafo.indegree()),np.min(grafo.outdegree()))
+print('densidad :',grafo.density(loops=True))
+print('coeficiente de clustering (local/media):',grafo.transitivity_avglocal_undirected())
+print('coeficiente de clustering (global/triangulo):',grafo.transitivity_undirected())
+print('diametro:',grafo.diameter())
 print()
 
-print('numero de links ap-ms:',ap_ms.ecount())
-print('numero de links lit:  ',lit.ecount())
-print('numero de links y2h:  ',y2h.ecount())
+if args.plot:
+#grafica el grafo con networkx (maneja mas amablemente las figuras)
+    grafo_nx = nx.DiGraph(grafo.get_edgelist())
+    nx.draw(grafo_nx,node_size=50, width=0.3, alpha=0.9)
 
-print()
-
-print('numero de k-out ap-ms:',np.sum(ap_ms.outdegree())/ap_ms.vcount())
-print('numero de k-in ap-ms: ',np.sum(ap_ms.indegree())/ap_ms.vcount())
-print('numero de k-out ap-ms:',np.sum(lit.outdegree())/lit.vcount())
-print('numero de k-in ap-ms: ',np.sum(lit.indegree())/lit.vcount())
-print('numero de k-out ap-ms:',np.sum(y2h.outdegree())/y2h.vcount())
-print('numero de k-in ap-ms: ',np.sum(y2h.indegree())/y2h.vcount())
-
-
-#u = open(1, 'w', encoding='utf-8', closefd=False)
-#
-#data = pd.read_csv("lista_curso.csv",encoding='utf-8')
-#data = data.replace(np.nan,0)
-#
-#names_data = data.drop(data.columns[range(14)] ,axis=1)
-#
-#print(names_data.columns,file=u)
-#print(names_data,file=u)
-#
-#node_names = data['Nombre'].values
-#print(node_names,file=u)
-#
-#
-#values = names_data.values
-#g = igraph.Graph.Adjacency(values.tolist())
-#
-#g.es['weight'] = values[values.nonzero()]
-#g.vs['labels'] = node_names
-#g.vs['carrera'] = data['Carrera de grado']
-#
-##hist(g.degree(),bins=25)
-##show()
-#
-#print(g.degree(),file=u)
-##igraph.plot(g, vertex_label=g.vs['carrera'])
-#
-#
-#print('grado medio:',np.mean(g.degree()))
-#print('grado maximo:',np.max(g.degree()))
-#print('diametro:',g.diameter())
-#print('average path length:',g.average_path_length())
-#print('shortest path:',np.min(g.shortest_paths()))
-#
+    plt.savefig('./schemes/'+filename+'.pdf')

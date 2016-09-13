@@ -35,6 +35,9 @@ import numpy as np
 
 grafo_adjlist = grafo.get_adjlist()
 grafo_degree  = grafo.degree()
+#Extraer la matriz de adyacencia es muy pesado, mejor tomar lista de vecinos y 
+#promediar sobre ellos
+
 
 #creamos un diccionario que contenga todos los nodos que son vecinos de un nodo
 #de grado 'degree'
@@ -63,30 +66,42 @@ for degree,nodes in neighborhood.items():
 grafo_nbh_degree = np.array(grafo_nbh_degree).T
 grafo_nbh_degree = np.sort(grafo_nbh_degree,axis=1)
 
-###############################################################################
-#  Sobrecarga del la clase power law model de lmfit
-#  para fiteo de knn(k)
-###############################################################################
-import lmfit as lmf
 
-class PowerLawModel(lmf.models.PowerLawModel):
-    """
-    Sobrecarga de la clase PowerLawModel de lmfits
-    """
-    def function(self,data,params):
-        prefix = self.prefix
-        
-        amplitude = params[prefix+'amplitude'].value
-        exponent  = params[prefix+'exponent'].value
-        return amplitude*np.power(data,exponent)
-        
-power_model = PowerLawModel(prefix='power_')
-##########
-# Fiteo
+print(grafo_nbh_degree.shape)
+
+
+################################################################################
+##  Sobrecarga del la clase power law model de lmfit
+##  para fiteo de knn(k)
+################################################################################
+#import lmfit as lmf
+#
+#class PowerLawModel(lmf.models.PowerLawModel):
+#    """
+#    Sobrecarga de la clase PowerLawModel de lmfits
+#    """
+#    def function(self,data,params):
+#        prefix = self.prefix
+#        
+#        amplitude = params[prefix+'amplitude'].value
+#        exponent  = params[prefix+'exponent'].value
+#        return amplitude*np.power(data,exponent)
+#        
+#power_model = PowerLawModel(prefix='power_')
 ###########
-params = power_model.guess(grafo_nbh_degree[1,:],x=grafo_nbh_degree[0,:])
-result = power_model.fit(grafo_nbh_degree[1,:],params,x=grafo_nbh_degree[0,:])
-print(result.fit_report())
+## Fiteo
+############
+#params = power_model.guess(grafo_nbh_degree[1,:],x=grafo_nbh_degree[0,:])
+#result = power_model.fit(grafo_nbh_degree[1,:],params,x=grafo_nbh_degree[0,:])
+#print(result.fit_report())
+
+result = igraph.power_law_fit(grafo_nbh_degree[1,:])
+print(result.summary())
+
+def powerlaw(x, alpha):
+    return np.power(x,alpha)
+
+
 
 ###############################################################################
 # Ploteo
@@ -95,14 +110,15 @@ import matplotlib.pyplot as plt
 
 fig,subplot = plt.subplots(ncols=1,nrows=1)
 
-min_degree = np.min(grafo_nbh_degree[0,:])
+min_degree = result.xmin
 max_degree = np.max(grafo_nbh_degree[0,:])
 
 fit_x = np.linspace(min_degree,max_degree,100)
-fit_y = result.model.function(fit_x,result.params)
+fit_y = powerlaw(fit_x,result.alpha)
 
-subplot.plot(fit_x,fit_y,label='power law fit')
+#subplot.plot(fit_x,fit_y,label='power law fit')
 subplot.plot(grafo_nbh_degree[0,:],grafo_nbh_degree[1,:],'.', label='data')
+
 subplot.set_xlabel('degree (k)')
 subplot.set_ylabel('mean neighborhood degree (<k_nn>)')
 
