@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.9.4)  13 SEP 2016 23:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.9.16)  14 SEP 2016 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -550,9 +550,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-
-LaTeX Warning: Reference `tab:obs' on page 1 undefined on input line 44.
-
 [1 <./schemes/yeast_AP-MS.pdf> <./schemes/yeast_LIT.pdf
 
 pdfTeX warning: pdflatex (file ./schemes/yeast_LIT.pdf): PDF inclusion: multipl
@@ -561,287 +558,257 @@ e pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./schemes/yeast_Y2H.pdf): PDF inclusion: multipl
 e pdfs with page group included in a single page
->]) (./seba.tex
+>]) (./seba.tex [2]
 Package epstopdf Info: Source file: <figuras/FrutRein.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 65238 bytes
 (epstopdf)             Output file: <figuras/FrutRein-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 21:20:04
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18661 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/FrutRein-eps-conve
 rted-to.pdf figuras/FrutRein.eps>
-(epstopdf)             \includegraphics on input line 10.
+(epstopdf)             \includegraphics on input line 11.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/FrutRein-eps-converted-to.pdf, id=26, 602.25pt x 602.25pt>
+<figuras/FrutRein-eps-converted-to.pdf, id=36, 602.25pt x 602.25pt>
 File: figuras/FrutRein-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/FrutRein-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/FrutRein-eps-converted-to.pdf used on input li
-ne 10.
+ne 11.
 (pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
-
-
-LaTeX Warning: Reference `fig:Layout_delfines' on page 2 undefined on input lin
-e 16.
-
-[2] [3 <./figuras/FrutRein-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:Layouts_alternativos' on page 4 undefined on inpu
-t line 18.
-
+ [3 <./figuras/FrutRein-eps-converted-to.pdf>]
 Package epstopdf Info: Source file: <figuras/KamKaw.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 65286 bytes
 (epstopdf)             Output file: <figuras/KamKaw-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 22:51:24
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18639 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/KamKaw-eps-convert
 ed-to.pdf figuras/KamKaw.eps>
-(epstopdf)             \includegraphics on input line 23.
+(epstopdf)             \includegraphics on input line 25.
 Package epstopdf Info: Output file is already uptodate.
-<figuras/KamKaw-eps-converted-to.pdf, id=44, 602.25pt x 602.25pt>
+ <figuras/KamKaw-eps-converted-to.pdf, id=46, 602.25pt x 602.25pt>
 File: figuras/KamKaw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/KamKaw-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/KamKaw-eps-converted-to.pdf used on input line
- 23.
+ 25.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 Package epstopdf Info: Source file: <figuras/Drl.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 64880 bytes
 (epstopdf)             Output file: <figuras/Drl-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 22:51:24
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18617 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Drl-eps-converted-
 to.pdf figuras/Drl.eps>
-(epstopdf)             \includegraphics on input line 24.
+(epstopdf)             \includegraphics on input line 26.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Drl-eps-converted-to.pdf, id=45, 602.25pt x 602.25pt>
+<figuras/Drl-eps-converted-to.pdf, id=47, 602.25pt x 602.25pt>
 File: figuras/Drl-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Drl-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Drl-eps-converted-to.pdf used on input line 24
+Package pdftex.def Info: figuras/Drl-eps-converted-to.pdf used on input line 26
 .
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 Package epstopdf Info: Source file: <figuras/Random.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 65009 bytes
 (epstopdf)             Output file: <figuras/Random-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 22:51:25
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18640 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Random-eps-convert
 ed-to.pdf figuras/Random.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 33.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Random-eps-converted-to.pdf, id=46, 602.25pt x 602.25pt>
+<figuras/Random-eps-converted-to.pdf, id=48, 602.25pt x 602.25pt>
 File: figuras/Random-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Random-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Random-eps-converted-to.pdf used on input line
- 31.
+ 33.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 Package epstopdf Info: Source file: <figuras/Multi.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 65152 bytes
 (epstopdf)             Output file: <figuras/Multi-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 22:51:25
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18472 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Multi-eps-converte
 d-to.pdf figuras/Multi.eps>
-(epstopdf)             \includegraphics on input line 32.
+(epstopdf)             \includegraphics on input line 34.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Multi-eps-converted-to.pdf, id=47, 602.25pt x 602.25pt>
+<figuras/Multi-eps-converted-to.pdf, id=49, 602.25pt x 602.25pt>
 File: figuras/Multi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Multi-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Multi-eps-converted-to.pdf used on input line 
-32.
+34.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
-
-
-LaTeX Warning: Reference `fig:Histograma' on page 4 undefined on input line 41.
-
-
-[4 <./figuras/KamKaw-eps-converted-to.pdf> <./figuras/Drl-eps-converted-to.pdf>
-]
+ [4 <./figuras/KamKaw-eps-converted-to.pdf> <./figuras/Drl-eps-converted-to.pdf
+>]
 Package epstopdf Info: Source file: <figuras/Histograma.eps>
-(epstopdf)                    date: 2016-09-13 22:57:54
-(epstopdf)                    size: 38984 bytes
+(epstopdf)                    date: 2016-09-14 18:31:40
+(epstopdf)                    size: 38986 bytes
 (epstopdf)             Output file: <figuras/Histograma-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 22:59:50
-(epstopdf)                    size: 21774 bytes
+(epstopdf)                    date: 2016-09-14 18:31:49
+(epstopdf)                    size: 21772 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Histograma-eps-con
 verted-to.pdf figuras/Histograma.eps>
-(epstopdf)             \includegraphics on input line 45.
+(epstopdf)             \includegraphics on input line 52.
 Package epstopdf Info: Output file is already uptodate.
- <figuras/Histograma-eps-converted-to.pdf, id=63, 578.16pt x 433.62pt>
+
+<figuras/Histograma-eps-converted-to.pdf, id=65, 578.16pt x 433.62pt>
 File: figuras/Histograma-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Histograma-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Histograma-eps-converted-to.pdf used on input 
-line 45.
+line 52.
 (pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
 
-Overfull \hbox (44.70924pt too wide) in paragraph at lines 45--46
+Overfull \hbox (44.70924pt too wide) in paragraph at lines 52--53
  [][] 
  []
 
 
 Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 52.
+(amsmath)                 on input line 59.
 
 [5 <./figuras/Random-eps-converted-to.pdf> <./figuras/Multi-eps-converted-to.pd
 f>] [6 <./figuras/Histograma-eps-converted-to.pdf>]
-
-LaTeX Warning: Reference `fig:Histograma' on page 7 undefined on input line 66.
-
-
-
-LaTeX Warning: Reference `fig:Betweenness' on page 7 undefined on input line 75
-.
-
-
-LaTeX Warning: Reference `fig:Comparacion' on page 7 undefined on input line 75
-.
-
-[7]
 Package epstopdf Info: Source file: <figuras/Parte_c0.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 64396 bytes
 (epstopdf)             Output file: <figuras/Parte_c0-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 21:20:04
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18516 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c0-eps-conve
 rted-to.pdf figuras/Parte_c0.eps>
-(epstopdf)             \includegraphics on input line 79.
+(epstopdf)             \includegraphics on input line 84.
 Package epstopdf Info: Output file is already uptodate.
- <figuras/Parte_c0-eps-converted-to.pdf, id=130, 602.25pt x 602.25pt>
+
+<figuras/Parte_c0-eps-converted-to.pdf, id=129, 602.25pt x 602.25pt>
 File: figuras/Parte_c0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c0-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Parte_c0-eps-converted-to.pdf used on input li
-ne 79.
+ne 84.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 Package epstopdf Info: Source file: <figuras/Parte_c1.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 63841 bytes
 (epstopdf)             Output file: <figuras/Parte_c1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 21:20:04
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18423 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c1-eps-conve
 rted-to.pdf figuras/Parte_c1.eps>
-(epstopdf)             \includegraphics on input line 80.
+(epstopdf)             \includegraphics on input line 85.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Parte_c1-eps-converted-to.pdf, id=131, 602.25pt x 602.25pt>
+<figuras/Parte_c1-eps-converted-to.pdf, id=130, 602.25pt x 602.25pt>
 File: figuras/Parte_c1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c1-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Parte_c1-eps-converted-to.pdf used on input li
-ne 80.
+ne 85.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 Package epstopdf Info: Source file: <figuras/Parte_c2.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 62677 bytes
 (epstopdf)             Output file: <figuras/Parte_c2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 21:20:04
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18239 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c2-eps-conve
 rted-to.pdf figuras/Parte_c2.eps>
-(epstopdf)             \includegraphics on input line 81.
+(epstopdf)             \includegraphics on input line 86.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Parte_c2-eps-converted-to.pdf, id=132, 602.25pt x 602.25pt>
+<figuras/Parte_c2-eps-converted-to.pdf, id=131, 602.25pt x 602.25pt>
 File: figuras/Parte_c2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c2-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Parte_c2-eps-converted-to.pdf used on input li
-ne 81.
+ne 86.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 Package epstopdf Info: Source file: <figuras/Parte_c3.eps>
-(epstopdf)                    date: 2016-09-12 23:18:21
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 62180 bytes
 (epstopdf)             Output file: <figuras/Parte_c3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-13 21:20:04
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 18146 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c3-eps-conve
 rted-to.pdf figuras/Parte_c3.eps>
-(epstopdf)             \includegraphics on input line 82.
+(epstopdf)             \includegraphics on input line 87.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Parte_c3-eps-converted-to.pdf, id=133, 602.25pt x 602.25pt>
+<figuras/Parte_c3-eps-converted-to.pdf, id=132, 602.25pt x 602.25pt>
 File: figuras/Parte_c3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c3-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Parte_c3-eps-converted-to.pdf used on input li
-ne 82.
+ne 87.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 Package epstopdf Info: Source file: <figuras/Nodos_removidos.eps>
-(epstopdf)                    date: 2016-09-13 22:50:46
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 33276 bytes
 (epstopdf)             Output file: <figuras/Nodos_removidos-eps-converted-to.p
 df>
-(epstopdf)                    date: 2016-09-13 23:01:36
+(epstopdf)                    date: 2016-09-14 17:13:48
 (epstopdf)                    size: 33279 bytes
 (epstopdf)             Command: <repstopdf --outfile=figuras/Nodos_removidos-ep
 s-converted-to.pdf figuras/Nodos_removidos.eps>
-(epstopdf)             \includegraphics on input line 89.
+(epstopdf)             \includegraphics on input line 94.
 Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Nodos_removidos-eps-converted-to.pdf, id=134, 578.16pt x 433.62pt>
+<figuras/Nodos_removidos-eps-converted-to.pdf, id=133, 578.16pt x 433.62pt>
 File: figuras/Nodos_removidos-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Nodos_removidos-eps-converted-to.pdf>
 Package pdftex.def Info: figuras/Nodos_removidos-eps-converted-to.pdf used on i
-nput line 89.
+nput line 94.
 (pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
-) [8] [9 <./figuras/Parte_c0-eps-converted-to.pdf> <./figuras/Parte_c1-eps-conv
+) [7] [8 <./figuras/Parte_c0-eps-converted-to.pdf> <./figuras/Parte_c1-eps-conv
 erted-to.pdf> <./figuras/Parte_c2-eps-converted-to.pdf> <./figuras/Parte_c3-eps
--converted-to.pdf>] [10 <./figuras/Nodos_removidos-eps-converted-to.pdf>] (./in
-forme.aux
+-converted-to.pdf>] [9 <./figuras/Nodos_removidos-eps-converted-to.pdf>] (./inf
+orme.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
 LaTeX Info: Redefining \. on input line 10.
 LaTeX Info: Redefining \% on input line 10.
-)
-
-LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
- 5018 strings out of 493105
- 74111 string characters out of 6137073
- 170955 words of memory out of 5000000
- 8384 multiletter control sequences out of 15000+600000
- 11654 words of font info for 41 fonts, out of 8000000 for 9000
+ 5026 strings out of 493105
+ 74179 string characters out of 6137072
+ 171011 words of memory out of 5000000
+ 8388 multiletter control sequences out of 15000+600000
+ 12791 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,13n,38p,891b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-msy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.p
-fb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on informe.pdf (11 pages, 833669 bytes).
+ 38i,13n,38p,890b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
+sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/te
+xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on informe.pdf (10 pages, 857333 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 259 PDF objects out of 1000 (max. 8388607)
+ 123 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
