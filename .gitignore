@@ -1,4 +1,8 @@
 *.zip
 *.log
 *.aux
+*.toc
+*.fdb*
+
+*.dvi
 
