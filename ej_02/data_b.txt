@@ -1,0 +1,5 @@
+Fracción de enlaces entre géneros: 0.327044025157
+Fracción de enlaces entre géneros según hipótesis nula: 0.424557752341
+Valor medio y desviación de la distribución: 
+0.431508471698 0.0396872935833
+

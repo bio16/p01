@@ -33,53 +33,12 @@ for i in range(len(dolphins_sex)):
                 vs["color"] = "green"
                 vs["sex"] = None
 
-"""
-# ------ Distintos layouts - parte a ------------------- #
-
-# Grafo circular
-layout = graph.layout_circle()
-igraph.plot(graph, layout = layout, target = 'Circle.eps')
-
-# Grafo DrL
-layout = graph.layout_drl()
-igraph.plot(graph, layout = layout, target = 'Drl.eps')
-
-# Grafo Fruchterman - Reingold
-layout = graph.layout_fruchterman_reingold()
-igraph.plot(graph, layout = layout)
-
-# Grafo Kamada Kawai
-layout = graph.layout_kamada_kawai()
-igraph.plot(graph, layout = layout, target = 'KamKaw.eps')
-
-# Grafo Large Graph Layout
-layout = graph.layout_lgl()
-igraph.plot(graph, layout = layout, target = 'Large.eps')
-
-# Grafo Multidimensional Scaling
-layout = graph.layout_mds()
-igraph.plot(graph, layout = layout, target = 'Multi.eps')
-
-# Grafo Random
-layout = graph.layout_random()
-igraph.plot(graph, layout = layout, target = 'Random.eps')
-
-# Grafo Reingold Tilford
-layout = graph.layout_reingold_tilford()
-igraph.plot(graph, layout = layout, target = 'ReinTil.eps')
-
-# Grafo Star
-layout = graph.layout_star()
-igraph.plot(graph, layout = layout, target = 'Star.eps')
-
-# --------------------------------------------------- #
-"""
-
 # ----- Parte b ------ #
 
 # Cuento la cantidad de especies del mismo género
-
 number_of_vertices = len(graph.vs)
+print number_of_vertices
+
 number_of_links = len(graph.es)
 
 genders = {}
@@ -89,7 +48,12 @@ genders[None] = 0
 for vs in graph.vs:
     genders[vs['sex']] += 1
 
+print u'Fracción de delfines machos:' + str(float(genders['m'])/number_of_vertices)
+print u'Fracción de delfines hembras:' + str(float(genders['f'])/number_of_vertices)
+print u'Fracción de delfines con género no especificado:' + str(float(genders[None])/number_of_vertices)
+
 # Calculo la cantidad de links entre géneros que existen
+# No tomo en cuenta links con los delfines de género indefinido
 inter_gender_links = 0
 for vs in graph.vs:
     neighbors = vs.neighbors()
@@ -98,12 +62,11 @@ for vs in graph.vs:
            vs['sex'] != None and neighbour['sex'] != None: 
             inter_gender_links += 1
 
-# Real gender links es los links entre géneros de la red real
+# Real gender links son los links entre géneros de la red del dataset
 real_gender_links = inter_gender_links / 2
 
-print u'Fracción de enlaces entre géneros: ' + str(float(real_gender_links) / number_of_links)
+print u'Fracción de enlaces entre géneros: ' + str(float(real_gender_links)/number_of_links)
 
-print u'Fracción de enlaces entre géneros según hipótesis nula: ' + str(2.0 * genders['m'] * genders['f'] / (number_of_vertices * number_of_vertices))
 
 # Paso a sortear los géneros entre los vértices manteniendo
 # la topología de la red inalterable. 
@@ -113,6 +76,7 @@ print u'Fracción de enlaces entre géneros según hipótesis nula: ' + str(2.0 
 list_of_genders = ['m'] * genders['m'] + ['f'] * genders['f'] + \
                   [None] * genders[None]
 
+# Fracción de links entre generos 
 inter_gender_links_data = []
 
 for conf in range(1000000):
@@ -131,46 +95,27 @@ for conf in range(1000000):
               vs['sex'] != None and neighbour['sex'] != None: 
                 inter_gender_links += 1
 
-    inter_gender_links_data.append(inter_gender_links / 2)
 
+    aux = inter_gender_links / 2
+    inter_gender_links_data.append(aux)
+
+# Imprimo el valor medio y la desviación standard 
+# de la distribución resultante
 print u'Valor medio y desviación de la distribución: '
 print np.mean(inter_gender_links_data)/number_of_links,
 print np.std(inter_gender_links_data)/number_of_links
 
-
-plt.ion()
-plt.hist(inter_gender_links_data, range = [39.5, 89.5], bins = 50, normed = True, label = u'Distribución nula')
-plt.plot([real_gender_links, real_gender_links], [0.0, 0.05], '.-', markersize = 15, label = 'Red real')
+plt.figure(1)
+plt.hist(inter_gender_links_data, range = [40.5, 90.5], bins = 50, normed = True, label = u'Distribución nula')
+plt.plot([real_gender_links, real_gender_links], [0.0, 0.01], '.-', markersize = 15, label = 'Red real')
 plt.legend(loc = 2)
 plt.xlabel(u'# de Links entre géneros')
+plt.xlim([40, 90])
 
 plt.grid('on')
-plt.savefig('Histrograma_b.eps')
+plt.title(u'Número total de links = ' + str(number_of_links))
+
+plt.savefig('Histograma.eps')
+
 plt.yscale('log')
-plt.savefig('Histrograma_b_log.eps')
-plt.show()
-
-"""
-# ---- Parte c ---- #
-
-# Número de nodos a remover
-# Remuevo los nodos desde mayor betweennes
-# Con cuatro alcanza
-nodes_to_remove = 4 
-for i in range(nodes_to_remove):
-    betweenness = graph.betweenness()
-    max_bet = max(betweenness)
-    vertex_ind = betweenness.index(max_bet)
-    graph.delete_vertices(vertex_ind)
-
-# Grafo Fruchterman - Reingold
-layout = graph.layout_fruchterman_reingold()
-igraph.plot(graph, layout = layout, target = 'Parte_c.eps')
-
-
-# Remuevo al azar: habría que ver como detectar que
-# particionó la red
-nodes_to_remove = 15
-sample = random.sample(range(len(graph.vs)), nodes_to_remove)
-graph.delete_vertices(sample)
-"""
+plt.savefig('Histograma_log.eps')
