@@ -1,15 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.9.16)  14 SEP 2016 18:32
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.8.5)  14 SEP 2016 19:03
 entering extended mode
- restricted \write18 enabled.
  %&-line parsing enabled.
 **informe.tex
 (./informe.tex
-LaTeX2e <2014/05/01>
-Babel <3.9l> and hyphenation patterns for 79 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
-Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, spanish, galician, catalan, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -23,41 +23,39 @@ File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2014/09/25 3.9l The Babel package
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2014/04/24 v5.0n Spanish support from the babel system
+(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2014/09/25 3.9l Babel common definitions
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
 \babel@savecnt=\count87
 \U@D=\dimen103
 )
+\es@datefmt=\count88
 \es@quottoks=\toks14
-\es@quotdepth=\count88
-Package babel Info: Making " an active character on input line 516.
-Package babel Info: Making . an active character on input line 617.
-Package babel Info: Making < an active character on input line 662.
-Package babel Info: Making > an active character on input line 662.
+\es@quotdepth=\count89
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
 ))
-LaTeX Info: Redefining \. on input line 3.
-LaTeX Info: Redefining \% on input line 3.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -206,8 +204,8 @@ File: t1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -237,8 +235,8 @@ File: ot1enc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2014/09/29 v1.1m UTF-8 support for inputenc
+(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -261,101 +259,94 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count89
+(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
+\Gread@gobject=\count90
 ))
 \Gin@req@height=\dimen104
 \Gin@req@width=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mathtools.sty
-Package: mathtools 2014/07/16 v1.15 mathematical typesetting tools
+(/usr/share/texmf-texlive/tex/latex/mh/mathtools.sty
+Package: mathtools 2008/08/01 v1.06 mathematical typesetting tools (MH)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count90
-\calc@Bcount=\count91
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count91
+\calc@Bcount=\count92
 \calc@Adimen=\dimen106
 \calc@Bdimen=\dimen107
 \calc@Askip=\skip43
 \calc@Bskip=\skip44
-LaTeX Info: Redefining \setlength on input line 75.
-LaTeX Info: Redefining \addtolength on input line 76.
-\calc@Ccount=\count92
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count93
 \calc@Cskip=\skip45
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mathtools/mhsetup.sty
-Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
+(/usr/share/texmf-texlive/tex/latex/mh/mhsetup.sty
+Package: mhsetup 2007/12/03 v1.2 programming setup (MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2013/01/14 v2.14 AMS math features
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip46
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen108
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen109
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count93
-LaTeX Info: Redefining \frac on input line 210.
-\uproot@=\count94
-\leftroot@=\count95
-LaTeX Info: Redefining \overline on input line 306.
-\classnum@=\count96
-\DOTSCASE@=\count97
-LaTeX Info: Redefining \ldots on input line 378.
-LaTeX Info: Redefining \dots on input line 381.
-LaTeX Info: Redefining \cdots on input line 466.
+\inf@bad=\count94
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count95
+\leftroot@=\count96
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count97
+\DOTSCASE@=\count98
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
 \big@size=\dimen110
-LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
-\macc@depth=\count98
-\c@MaxMatrixCols=\count99
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count99
+\c@MaxMatrixCols=\count100
 \dotsspace@=\muskip10
-\c@parentequation=\count100
-\dspbrk@lvl=\count101
+\c@parentequation=\count101
+\dspbrk@lvl=\count102
 \tag@help=\toks19
-\row@=\count102
-\column@=\count103
-\maxfields@=\count104
+\row@=\count103
+\column@=\count104
+\maxfields@=\count105
 \andhelp@=\toks20
 \eqnshift@=\dimen111
 \alignsep@=\dimen112
@@ -367,74 +358,59 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \multlinegap=\skip47
 \multlinetaggap=\skip48
 \mathdisplay@stack=\toks22
-LaTeX Info: Redefining \[ on input line 2665.
-LaTeX Info: Redefining \] on input line 2666.
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
 )
-LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
-LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count105
+\g_MT_multlinerow_int=\count106
 \l_MT_multwidth_dim=\dimen117
-\origjot=\skip49
-\l_MT_shortvdotswithinadjustabove_dim=\dimen118
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen119
-\l_MT_above_intertext_sep=\dimen120
-\l_MT_below_intertext_sep=\dimen121
-\l_MT_above_shortintertext_sep=\dimen122
-\l_MT_below_shortintertext_sep=\dimen123
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2014/10/28 v2.10 `tabularx' package (DPC)
+(/usr/share/texmf-texlive/tex/latex/tools/tabularx.sty
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
-\col@sep=\dimen124
-\extrarowheight=\dimen125
+(/usr/share/texmf-texlive/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen118
+\extrarowheight=\dimen119
 \NC@list=\toks23
-\extratabsurround=\skip50
-\backup@length=\skip51
+\extratabsurround=\skip49
+\backup@length=\skip50
 )
-\TX@col@width=\dimen126
-\TX@old@table=\dimen127
-\TX@old@col=\dimen128
-\TX@target=\dimen129
-\TX@delta=\dimen130
-\TX@cols=\count106
+\TX@col@width=\dimen120
+\TX@old@table=\dimen121
+\TX@old@col=\dimen122
+\TX@target=\dimen123
+\TX@delta=\dimen124
+\TX@cols=\count107
 \TX@ftn=\toks24
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
+(/usr/share/texmf-texlive/tex/latex/caption/caption.sty
+Package: caption 2009/10/09 v3.1k Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
-Package caption3 Info: TeX engine: e-TeX on input line 57.
-\captionmargin=\dimen131
-\captionmargin@=\dimen132
-\captionwidth=\dimen133
-\caption@tempdima=\dimen134
-\caption@indent=\dimen135
-\caption@parindent=\dimen136
-\caption@hangindent=\dimen137
+(/usr/share/texmf-texlive/tex/latex/caption/caption3.sty
+Package: caption3 2009/10/09 v3.1k caption3 kernel (AR)
+\captionmargin=\dimen125
+\captionmargin@=\dimen126
+\captionwidth=\dimen127
+\caption@indent=\dimen128
+\caption@parindent=\dimen129
+\caption@hangindent=\dimen130
 )
-\c@ContinuedFloat=\count107
+\c@ContinuedFloat=\count108
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
-\c@subfigure=\count108
-\c@subtable=\count109
+(/usr/share/texmf-texlive/tex/latex/caption/subcaption.sty
+Package: subcaption 2008/08/31 v1.0b Adding subcaptions (AR)
+\c@subfigure=\count109
+\c@subtable=\count110
 )
-(/usr/share/texlive/texmf-dist/tex/latex/preprint/authblk.sty
+(/usr/share/texmf-texlive/tex/latex/preprint/authblk.sty
 Package: authblk 2001/02/27 1.3 (PWD)
-\affilsep=\skip52
-\@affilsep=\skip53
-\c@Maxaffil=\count110
-\c@authors=\count111
-\c@affil=\count112
-) (./informe.aux
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
+\affilsep=\skip51
+\@affilsep=\skip52
+\c@Maxaffil=\count111
+\c@authors=\count112
+\c@affil=\count113
 )
+No file informe.aux.
 \openout1 = `informe.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
@@ -449,97 +425,45 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
 LaTeX Font Info:    ... okay on input line 17.
-LaTeX Info: Redefining \. on input line 17.
-LaTeX Info: Redefining \% on input line 17.
-
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count113
-\scratchdimen=\dimen138
+\scratchcounter=\count114
+\scratchdimen=\dimen131
 \scratchbox=\box28
-\nofMPsegments=\count114
-\nofMParguments=\count115
+\nofMPsegments=\count115
+\nofMParguments=\count116
 \everyMPshowfont=\toks25
-\MPscratchCnt=\count116
-\MPscratchDim=\dimen139
-\MPnumerator=\count117
-\makeMPintoPDFobject=\count118
+\MPscratchCnt=\count117
+\MPscratchDim=\dimen132
+\MPnumerator=\count118
 \everyMPtoPDFconversion=\toks26
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in PDF mode is detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+ [1
 
-[1
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./informe.toc)
+\tf@toc=\write3
+\openout3 = `informe.toc'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./mariela.tex
-<./schemes/yeast_AP-MS.pdf, id=10, 578.16pt x 433.62pt>
+
+(./mariela.tex
+
+LaTeX Warning: Reference `fig:ej1_grafos' on page 1 undefined on input line 7.
+
+<./schemes/yeast_AP-MS.pdf, id=9, 578.16pt x 433.62pt>
 File: ./schemes/yeast_AP-MS.pdf Graphic file (type pdf)
 
 <use ./schemes/yeast_AP-MS.pdf>
-Package pdftex.def Info: ./schemes/yeast_AP-MS.pdf used on input line 12.
-(pdftex.def)             Requested size: 143.9978pt x 107.9945pt.
-
 <./schemes/yeast_LIT.pdf, id=11, 578.16pt x 433.62pt>
 File: ./schemes/yeast_LIT.pdf Graphic file (type pdf)
 
 <use ./schemes/yeast_LIT.pdf>
-Package pdftex.def Info: ./schemes/yeast_LIT.pdf used on input line 16.
-(pdftex.def)             Requested size: 143.9978pt x 107.9945pt.
-
-<./schemes/yeast_Y2H.pdf, id=12, 578.16pt x 433.62pt>
+<./schemes/yeast_Y2H.pdf, id=13, 578.16pt x 433.62pt>
 File: ./schemes/yeast_Y2H.pdf Graphic file (type pdf)
 
-<use ./schemes/yeast_Y2H.pdf>
-Package pdftex.def Info: ./schemes/yeast_Y2H.pdf used on input line 21.
-(pdftex.def)             Requested size: 143.9978pt x 107.9945pt.
-
+<use ./schemes/yeast_Y2H.pdf> [1 <./schemes/yeast_AP-MS.pdf> <./schemes/yeast_L
+IT.pdf> <./schemes/yeast_Y2H.pdf>]
 Overfull \hbox (11.2925pt too wide) in paragraph at lines 36--39
 []\OT1/cmr/m/n/10.95 Por otro la-do en gra-fo AP-MS se pue-den ob-ser-var pe-qu
 e~nos nu-cleos/clusters
@@ -550,126 +474,77 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-[1 <./schemes/yeast_AP-MS.pdf> <./schemes/yeast_LIT.pdf
 
-pdfTeX warning: pdflatex (file ./schemes/yeast_LIT.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./schemes/yeast_Y2H.pdf
+LaTeX Warning: Reference `tab:obs' on page 2 undefined on input line 44.
 
-pdfTeX warning: pdflatex (file ./schemes/yeast_Y2H.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
->]) (./seba.tex [2]
-Package epstopdf Info: Source file: <figuras/FrutRein.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 65238 bytes
-(epstopdf)             Output file: <figuras/FrutRein-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18661 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/FrutRein-eps-conve
-rted-to.pdf figuras/FrutRein.eps>
-(epstopdf)             \includegraphics on input line 11.
-Package epstopdf Info: Output file is already uptodate.
+) (./seba.tex [2]
 
-<figuras/FrutRein-eps-converted-to.pdf, id=36, 602.25pt x 602.25pt>
+pdfTeX warning: pdflatex (file ./figuras/FrutRein-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/FrutRein-eps-converted-to.pdf, id=35, 602.25pt x 602.25pt>
 File: figuras/FrutRein-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/FrutRein-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/FrutRein-eps-converted-to.pdf used on input li
-ne 11.
-(pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
- [3 <./figuras/FrutRein-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/KamKaw.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 65286 bytes
-(epstopdf)             Output file: <figuras/KamKaw-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18639 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/KamKaw-eps-convert
-ed-to.pdf figuras/KamKaw.eps>
-(epstopdf)             \includegraphics on input line 25.
-Package epstopdf Info: Output file is already uptodate.
- <figuras/KamKaw-eps-converted-to.pdf, id=46, 602.25pt x 602.25pt>
+
+LaTeX Warning: Reference `fig:Layout_delfines' on page 3 undefined on input lin
+e 17.
+
+
+LaTeX Warning: Reference `fig:Layouts_alternativos' on page 3 undefined on inpu
+t line 20.
+
+
+LaTeX Warning: Reference `fig:Layouts_malos' on page 3 undefined on input line 
+21.
+
+
+
+pdfTeX warning: pdflatex (file ./figuras/KamKaw-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/KamKaw-eps-converted-to.pdf, id=36, 602.25pt x 602.25pt>
 File: figuras/KamKaw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/KamKaw-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/KamKaw-eps-converted-to.pdf used on input line
- 25.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
-Package epstopdf Info: Source file: <figuras/Drl.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 64880 bytes
-(epstopdf)             Output file: <figuras/Drl-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18617 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Drl-eps-converted-
-to.pdf figuras/Drl.eps>
-(epstopdf)             \includegraphics on input line 26.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Drl-eps-converted-to.pdf, id=47, 602.25pt x 602.25pt>
+pdfTeX warning: pdflatex (file ./figuras/Drl-eps-converted-to.pdf): PDF inclusi
+on: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Drl-eps-converted-to.pdf, id=37, 602.25pt x 602.25pt>
 File: figuras/Drl-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Drl-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Drl-eps-converted-to.pdf used on input line 26
-.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
-Package epstopdf Info: Source file: <figuras/Random.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 65009 bytes
-(epstopdf)             Output file: <figuras/Random-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18640 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Random-eps-convert
-ed-to.pdf figuras/Random.eps>
-(epstopdf)             \includegraphics on input line 33.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Random-eps-converted-to.pdf, id=48, 602.25pt x 602.25pt>
+pdfTeX warning: pdflatex (file ./figuras/Random-eps-converted-to.pdf): PDF incl
+usion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Random-eps-converted-to.pdf, id=38, 602.25pt x 602.25pt>
 File: figuras/Random-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Random-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Random-eps-converted-to.pdf used on input line
- 33.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
-Package epstopdf Info: Source file: <figuras/Multi.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 65152 bytes
-(epstopdf)             Output file: <figuras/Multi-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18472 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Multi-eps-converte
-d-to.pdf figuras/Multi.eps>
-(epstopdf)             \includegraphics on input line 34.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Multi-eps-converted-to.pdf, id=49, 602.25pt x 602.25pt>
+pdfTeX warning: pdflatex (file ./figuras/Multi-eps-converted-to.pdf): PDF inclu
+sion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Multi-eps-converted-to.pdf, id=39, 602.25pt x 602.25pt>
 File: figuras/Multi-eps-converted-to.pdf Graphic file (type pdf)
 
-<use figuras/Multi-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Multi-eps-converted-to.pdf used on input line 
-34.
-(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
- [4 <./figuras/KamKaw-eps-converted-to.pdf> <./figuras/Drl-eps-converted-to.pdf
->]
-Package epstopdf Info: Source file: <figuras/Histograma.eps>
-(epstopdf)                    date: 2016-09-14 18:31:40
-(epstopdf)                    size: 38986 bytes
-(epstopdf)             Output file: <figuras/Histograma-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 18:31:49
-(epstopdf)                    size: 21772 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Histograma-eps-con
-verted-to.pdf figuras/Histograma.eps>
-(epstopdf)             \includegraphics on input line 52.
-Package epstopdf Info: Output file is already uptodate.
+<use figuras/Multi-eps-converted-to.pdf> [3] [4 <./figuras/FrutRein-eps-convert
+ed-to.pdf>] [5 <./figuras/KamKaw-eps-converted-to.pdf> <./figuras/Drl-eps-conve
+rted-to.pdf> <./figuras/Random-eps-converted-to.pdf> <./figuras/Multi-eps-conve
+rted-to.pdf>]
 
-<figuras/Histograma-eps-converted-to.pdf, id=65, 578.16pt x 433.62pt>
+LaTeX Warning: Reference `fig:Histograma' on page 6 undefined on input line 43.
+
+
+
+LaTeX Warning: Reference `fig:Histograma' on page 6 undefined on input line 48.
+
+
+
+
+pdfTeX warning: pdflatex (file ./figuras/Histograma-eps-converted-to.pdf): PDF 
+inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Histograma-eps-converted-to.pdf, id=81, 578.16pt x 433.62pt>
 File: figuras/Histograma-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Histograma-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Histograma-eps-converted-to.pdf used on input 
-line 52.
-(pdftex.def)             Requested size: 404.70924pt x 303.53192pt.
-
 Overfull \hbox (44.70924pt too wide) in paragraph at lines 52--53
  [][] 
  []
@@ -679,136 +554,91 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 59.
 
-[5 <./figuras/Random-eps-converted-to.pdf> <./figuras/Multi-eps-converted-to.pd
-f>] [6 <./figuras/Histograma-eps-converted-to.pdf>]
-Package epstopdf Info: Source file: <figuras/Parte_c0.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 64396 bytes
-(epstopdf)             Output file: <figuras/Parte_c0-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18516 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c0-eps-conve
-rted-to.pdf figuras/Parte_c0.eps>
-(epstopdf)             \includegraphics on input line 84.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Parte_c0-eps-converted-to.pdf, id=129, 602.25pt x 602.25pt>
+LaTeX Warning: Reference `fig:Histograma' on page 6 undefined on input line 71.
+
+
+[6] [7 <./figuras/Histograma-eps-converted-to.pdf>]
+
+LaTeX Warning: Reference `fig:Betweenness' on page 8 undefined on input line 80
+.
+
+
+LaTeX Warning: Reference `fig:Comparacion' on page 8 undefined on input line 80
+.
+
+
+
+pdfTeX warning: pdflatex (file ./figuras/Parte_c0-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Parte_c0-eps-converted-to.pdf, id=133, 602.25pt x 602.25pt>
 File: figuras/Parte_c0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c0-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Parte_c0-eps-converted-to.pdf used on input li
-ne 84.
-(pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
-Package epstopdf Info: Source file: <figuras/Parte_c1.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 63841 bytes
-(epstopdf)             Output file: <figuras/Parte_c1-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18423 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c1-eps-conve
-rted-to.pdf figuras/Parte_c1.eps>
-(epstopdf)             \includegraphics on input line 85.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Parte_c1-eps-converted-to.pdf, id=130, 602.25pt x 602.25pt>
+pdfTeX warning: pdflatex (file ./figuras/Parte_c1-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Parte_c1-eps-converted-to.pdf, id=134, 602.25pt x 602.25pt>
 File: figuras/Parte_c1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c1-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Parte_c1-eps-converted-to.pdf used on input li
-ne 85.
-(pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
-Package epstopdf Info: Source file: <figuras/Parte_c2.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 62677 bytes
-(epstopdf)             Output file: <figuras/Parte_c2-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18239 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c2-eps-conve
-rted-to.pdf figuras/Parte_c2.eps>
-(epstopdf)             \includegraphics on input line 86.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Parte_c2-eps-converted-to.pdf, id=131, 602.25pt x 602.25pt>
+pdfTeX warning: pdflatex (file ./figuras/Parte_c2-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Parte_c2-eps-converted-to.pdf, id=135, 602.25pt x 602.25pt>
 File: figuras/Parte_c2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c2-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Parte_c2-eps-converted-to.pdf used on input li
-ne 86.
-(pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
-Package epstopdf Info: Source file: <figuras/Parte_c3.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 62180 bytes
-(epstopdf)             Output file: <figuras/Parte_c3-eps-converted-to.pdf>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 18146 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Parte_c3-eps-conve
-rted-to.pdf figuras/Parte_c3.eps>
-(epstopdf)             \includegraphics on input line 87.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Parte_c3-eps-converted-to.pdf, id=132, 602.25pt x 602.25pt>
+pdfTeX warning: pdflatex (file ./figuras/Parte_c3-eps-converted-to.pdf): PDF in
+clusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Parte_c3-eps-converted-to.pdf, id=136, 602.25pt x 602.25pt>
 File: figuras/Parte_c3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c3-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Parte_c3-eps-converted-to.pdf used on input li
-ne 87.
-(pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
-Package epstopdf Info: Source file: <figuras/Nodos_removidos.eps>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 33276 bytes
-(epstopdf)             Output file: <figuras/Nodos_removidos-eps-converted-to.p
-df>
-(epstopdf)                    date: 2016-09-14 17:13:48
-(epstopdf)                    size: 33279 bytes
-(epstopdf)             Command: <repstopdf --outfile=figuras/Nodos_removidos-ep
-s-converted-to.pdf figuras/Nodos_removidos.eps>
-(epstopdf)             \includegraphics on input line 94.
-Package epstopdf Info: Output file is already uptodate.
 
-<figuras/Nodos_removidos-eps-converted-to.pdf, id=133, 578.16pt x 433.62pt>
+pdfTeX warning: pdflatex (file ./figuras/Nodos_removidos-eps-converted-to.pdf):
+ PDF inclusion: found PDF version <1.5>, but at most version <1.4> allowed
+<figuras/Nodos_removidos-eps-converted-to.pdf, id=137, 578.16pt x 433.62pt>
 File: figuras/Nodos_removidos-eps-converted-to.pdf Graphic file (type pdf)
 
-<use figuras/Nodos_removidos-eps-converted-to.pdf>
-Package pdftex.def Info: figuras/Nodos_removidos-eps-converted-to.pdf used on i
-nput line 94.
-(pdftex.def)             Requested size: 346.89867pt x 260.17401pt.
-) [7] [8 <./figuras/Parte_c0-eps-converted-to.pdf> <./figuras/Parte_c1-eps-conv
-erted-to.pdf> <./figuras/Parte_c2-eps-converted-to.pdf> <./figuras/Parte_c3-eps
--converted-to.pdf>] [9 <./figuras/Nodos_removidos-eps-converted-to.pdf>] (./inf
-orme.aux
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
-LaTeX Info: Redefining \. on input line 10.
-LaTeX Info: Redefining \% on input line 10.
-) ) 
+<use figuras/Nodos_removidos-eps-converted-to.pdf>) [8] [9 <./figuras/Parte_c0-
+eps-converted-to.pdf> <./figuras/Parte_c1-eps-converted-to.pdf> <./figuras/Part
+e_c2-eps-converted-to.pdf> <./figuras/Parte_c3-eps-converted-to.pdf>] [10 <./fi
+guras/Nodos_removidos-eps-converted-to.pdf>] (./informe.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 5026 strings out of 493105
- 74179 string characters out of 6137072
- 171011 words of memory out of 5000000
- 8388 multiletter control sequences out of 15000+600000
- 12791 words of font info for 45 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 38i,13n,38p,890b,483s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></u
-sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/
-texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on informe.pdf (10 pages, 857333 bytes).
+ 4021 strings out of 494999
+ 56812 string characters out of 1180817
+ 149896 words of memory out of 3000000
+ 7155 multiletter control sequences out of 15000+50000
+ 12791 words of font info for 45 fonts, out of 3000000 for 9000
+ 54 hyphenation exceptions out of 8191
+ 36i,13n,38p,891b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmr9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cms
+y10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/f
+onts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on informe.pdf (11 pages, 884469 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 123 compressed objects within 2 object streams
+ 261 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  71 words of extra memory for PDF output out of 10000 (max. 10000000)
 
