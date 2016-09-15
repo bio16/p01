@@ -25,7 +25,7 @@ filename = args.file.split('/')[-1]
 import igraph 
 
 grafo = igraph.read(args.file,format=args.format)
-
+grafo = grafo.as_undirected()
 ###############################################################################
 # Creacion del grafo a partir del archivo de entrada
 ###############################################################################
@@ -54,6 +54,7 @@ for node,neighbors in enumerate(grafo_adjlist):
         neighbors_degree.append(grafo_degree[n])
     se += grafo_degree[node] * np.sum(neighbors_degree)
 
+#calculamos la asortatividad por 2 metodos... para asegurarse !
 assortativity = (s1*se - s22)/(s1*s3 - s22)
 igraph_assortativity = grafo.assortativity_degree()
 
