@@ -1,11 +1,13 @@
 \section{Ejercicio 3}
 
-En esta secci\'on consdideramos una red (ver archivo \texttt{as-22july06.gml}) creada por Mark Newman que contiene la estructura de los sistemas aut\'onomos de internet relevada a mediados del 2006.
+En esta secci\'on consideramos una red (ver archivo \texttt{as-22july06.gml}) creada por Mark Newman que contiene la estructura de los sistemas aut\'onomos de internet relevada a mediados del 2006.
 
 
 \subsection{Parte a}
+\def \ScriptA {\texttt{ej\_03/parteA.py}}
 
-Primero hallamos todos los grados $k$ de la red, usando la rutina \texttt{igraph.Graph.Read\_GML()} de la libreria \texttt{igraph} (version 0.7.1) de Python.
+Primero hallamos todos los grados $k$ de la red, usando la rutina \texttt{igraph.\\
+Graph.Read\_GML()} de la libreria \texttt{igraph} (version 0.7.1) de Python.
 La distribuci\'on $P_k$ de dichos valores de grado se observa en la figura \ref{fig:ej03_1}, donde claramente observamos un fuerte comportamiento tipo power-law, a lo largo de tr\'es d\'ecadas en $k$.
 Exploramos visualmente la tendencia de $P_k$ en otras escalas lineales y semi-logar\'itmicas, pero no fueron las m\'as apropiadas para caracterizarla.
 
@@ -22,8 +24,15 @@ Observamos que la distribuci\'on tiene fuerte comportamiento tipo power-law, esp
 
 
 \subsection{Parte b}
+\def \ScriptB {\texttt{ej\_03/parteB.py}}
 
-A continuaci\'on, repetimos el c\'alculo del ajuste para el exponente de la distribuci\'on power-law $P_k \sim k^{-\alpha}$, pero esta vez usando la rutina \texttt{igraph.ipower\_law\_fit()}, el cual entrega valores de p-value=$0.5$, $k_{min}$=$3.9$, y del exponente $\alpha=1.37$.
+A continuaci\'on, repetimos el c\'alculo del ajuste para el exponente de la distribuci\'on power-law $P_k \sim k^{-\alpha}$, pero esta vez usando la rutina \texttt{igraph.\\
+ipower\_law\_fit()} (wrapper alrededor de c\'odigo C), el cual entrega valores de p-value=$0.5$, $k_{min}$=$3.9$, y del exponente $\alpha=1.37$.
+El ajuste se muestra en el panel inferior de la Figura \ref{fig:ej03_1}
+Notar en el script \ScriptB, que usamos dicha funci\'on d\'andole como argumento los valores de la inversa de $P_k$, pues seg\'un la documentaci\'on 
+\footnote{\texttt{http://igraph.org/c/doc/igraph-Nongraph.html}}, 
+la rutina realiza un ajuste para los valores que est\'en por encima de un valore m\'inimo dado \texttt{xmin} (tambi\'en determinado por la rutina) de $P_k$. 
+Para citar la documentaci\'on: \textit{``Samples smaller than xmin will be ignored the algorithm''}.
 
 
 
