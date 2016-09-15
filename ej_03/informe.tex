@@ -8,7 +8,7 @@ En esta secci\'on consideramos una red (ver archivo \texttt{as-22july06.gml}) cr
 
 Primero hallamos todos los grados $k$ de la red, usando la rutina \texttt{igraph.\\
 Graph.Read\_GML()} de la libreria \texttt{igraph} (version 0.7.1) de Python.
-La distribuci\'on $P_k$ de dichos valores de grado se observa en la figura \ref{fig:ej03_1}, donde claramente observamos un fuerte comportamiento tipo power-law, a lo largo de tr\'es d\'ecadas en $k$.
+La distribuci\'on $P_k$ de dichos valores de grado se observa en en panel superior de la Figura \ref{fig:ej03_1}, donde claramente observamos un fuerte comportamiento tipo power-law, a lo largo de tr\'es d\'ecadas en $k$.
 Exploramos visualmente la tendencia de $P_k$ en otras escalas lineales y semi-logar\'itmicas, pero no fueron las m\'as apropiadas para caracterizarla.
 
 
@@ -16,8 +16,10 @@ Exploramos visualmente la tendencia de $P_k$ en otras escalas lineales y semi-lo
 \centering
 \includegraphics[scale=.7]{figuras/ej03_Pk}
 \includegraphics[scale=.7]{figuras/ej03_Pk_igraph}
-\caption{Distribuci\'on de probabilidad $P_k$ de los valores de grado $k$ de la red de Mark Newman.
-Observamos que la distribuci\'on tiene fuerte comportamiento tipo power-law, especialmente en el rango $k \sim (3-400)$.}
+\caption{
+    Panel superior: Distribuci\'on de probabilidad $P_k$ de los valores de grado $k$ de la red de Mark Newman.
+Observamos que la distribuci\'on tiene fuerte comportamiento tipo power-law, especialmente en el rango $k \sim (3-400)$.
+    Panel inferior: repetimos el ajuste, pero usando rutinas de \texttt{igraph}.}
 \label{fig:ej03_1}
 \end{figure}
 
