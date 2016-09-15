@@ -1,1 +1,5 @@
-pdflatex informe.tex
+default:
+	pdflatex informe.tex
+
+clean:
+	rm *.pdf *.dvi

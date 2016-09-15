@@ -11,13 +11,19 @@ ir = igraph.Graph.Read_GML('../data/as-22july06.gml')
 lk = log10(ir.degree())
 hc, hx_ = np.histogram(lk, bins=20)
 hx = 0.5*(hx_[:-1] + hx_[1:])
+N  = hc.sum()
+#hc /= 1.*N*(hx[1]-hx[0])
+A  = 1.*(hc*(hx_[1:] - hx_[:-1])).sum() # area of the un-normalized distribution
+#print(" ---> area, area-norm: ", A, hc.sum()/A)
+hc = np.float32(hc) # so I can normalize with a float value
+hc /= A # now 'hc' is a distribution (with area=1.0)
 
 m, b = np.polyfit(hx, log10(hc), deg=1)
 
 fig = figure(1, figsize=(6,4))
 ax  = fig.add_subplot(111)
 
-label = 'N:%d' % hc.sum()
+label = 'N:%d' % N
 ax.plot(pow(10.,hx), hc, '-o', label=label)
 # fit curve
 ax.plot(pow(10.,hx), pow(10.,m*hx+b), 'r--', lw=3, alpha=0.6, label='spectral index: %2.2f'%m)

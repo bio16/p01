@@ -1,3 +1,23 @@
-\section{Ejercicio 3.}
+\section{Ejercicio 3}
 
 En esta secci\'on consdideramos una red (ver archivo \texttt{as-22july06.gml}) creada por Mark Newman que contiene la estructura de los sistemas aut\'onomos de internet relevada a mediados del 2006.
+
+
+\subsection{Parte a}
+
+Primero hallamos todos los grados $k$ de la red, usando la rutina \texttt{igraph.Graph.Read\_GML()} de la libreria \texttt{igraph} (version 0.7.1) de Python.
+La distribuci\'on $P_k$ de dichos valores de grado se observa en la figura \ref{fig:ej03_1}, donde claramente observamos un fuerte comportamiento tipo power-law, a lo largo de tr\'es d\'ecadas en $k$.
+Exploramos visualmente la tendencia de $P_k$ en otras escalas lineales y semi-logar\'itmicas, pero no fueron las m\'as apropiadas para caracterizarla.
+
+
+\begin{figure}
+\centering
+\includegraphics[scale=.5]{figuras/ej03_Pk}
+\caption{Distribuci\'on de probabilidad $P_k$ de los valores de grado $k$ de la red de Mark Newman.
+Observamos que la distribuci\'on tiene fuerte comportamiento tipo power-law, especialmente en el rango $k \sim (3-400)$.}
+\label{fig:ej03_1}
+\end{figure}
+
+
+
+\subsection{Parte b}
