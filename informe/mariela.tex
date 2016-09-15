@@ -74,9 +74,10 @@ La red AP-MS muestra la formaci\'on de varios grupos/clusters muy densos que cor
 a los complejos proteicos purificados, esto se ve reflejado en los observables de la tabla \ref{tab:obs}
 en que, salvo el di\'ametro, presenta mayores valores que el resto de las redes. 
 Cabe observar que la red de literatura LIT presenta el mayor di\'ametro, sin embargo es la con 
-menor grado m\'aximo (es decir, es capaz de relacionar m\'as relaciones entre clusters), debido a la compilaci\'on
+menor grado m\'aximo (por lo que pareciera capaz de relacionar m\'as interacciones entre clusters), debido a la compilaci\'on
 de un gran n\'umero de trabajos, pero tiene menor detalle de las interacciones prote\'ina-prote\'ina, debido
-a que en general los trabajos consultados son espec\'ificos y por lo tanto sesgados.
+a que en general los trabajos consultados son espec\'ificos y por lo tanto sesgados (hay perdida de informaci\'on las proteinas
+menos estudiadas).
 En particular al observar la clusterizaci\'on es importante diferenciar la clusterizaci\'on media $\mean{C}$ y la 
 clusterizaci\'on triangular $C_\bigtriangleup$. La primera caracteriza la media de la clusterizaci\'on local de cada 
 nodo, es por ello que la red LIT prensenta el mayor valor, debido a que, como mencionamos antes, compila
@@ -97,13 +98,13 @@ En este \'ultimo caso AP-MS presenta la mayor clusterizaci\'on, mientras que Y2H
 
 
 En segundo lugar se analiz\'o la cobertura y coherencia entre las interacci\'ones reportadas
-en las redes. Para ello se realiz\'aron los diagramas de Venn mostrados en la figura \ref{fig:venn} 
-(estos pueden reproducirse con el script \texttt{venn.py}). Para analizar la covertura comparamos
+en las redes. Para ello se realiz\'aron los diagramas de Venn mostrados en la figura \ref{fig:cober}, \ref{fig:venn} y \ref{fig:subgrafos}
+(estos pueden reproducirse con el script \texttt{venn.py} \texttt{venn2.py}). Para analizar la covertura comparamos
 la intersecci\'on de las prote\'inas reportadas en cada caso. En la figura \ref{fig:cober} se muestra
 la cobertura de cada red y la cantidad de proteinas reportadas por m\'as de una red (intersecciones). Es 
-interesante notar que AP-MS y LIT presentan $\approx 60\%$ de cobertura entre ellas y solo un $\approx 27\%$ 
-y un $\approx 22\%$ de las prot\'inas reportadas, respectivamente, son especificas de cada red. Esto se ve contrastado
-con el $\approx 50\%$ de especificidad en la red Y2H entre las interacciones. 
+interesante notar que AP-MS y LIT presentan $\sim 60\%$ de cobertura entre ellas y solo un $\sim 27\%$ 
+y un $\sim 22\%$ de las prot\'inas reportadas, respectivamente, son especificas de cada red. Esto se ve contrastado
+con el $\sim 50\%$ de especificidad en la red Y2H. 
 
 
 \vspace{1.5cm}
@@ -126,7 +127,7 @@ con el $\approx 50\%$ de especificidad en la red Y2H entre las interacciones.
 
 \vspace{1.5cm}
 Por otra parte, a partir de la intersecci\'on de las prote\'inas reportadas de las tres redes, se analiza la coherencia
-de los enlaces entre las prote\'inas comunes. De la figura \ref{fig:cohe}. Aqu\'i se puede observar al alta especificidad
+de los enlaces entre las prote\'inas comunes. De la figura \ref{fig:cohe} se puede observar al alta especificidad
 de cada red respecto al resto (solo 8 links son compartidos por las tres redes). 
 
 

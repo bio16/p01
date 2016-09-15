@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2015.11.29)  15 SEP 2016 13:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Arch Linux) (preloaded format=pdflatex 2015.11.29)  15 SEP 2016 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -640,116 +640,120 @@ File: ./schemes/venn_AP-MS-Y2H-LIT_covertura.pdf Graphic file (type pdf)
 
 <use ./schemes/venn_AP-MS-Y2H-LIT_covertura.pdf>
 Package pdftex.def Info: ./schemes/venn_AP-MS-Y2H-LIT_covertura.pdf used on inp
-ut line 93.
+ut line 94.
 (pdftex.def)             Requested size: 180.0pt x 123.74673pt.
- [3 <./schemes/venn_AP-MS-Y2H-LIT_covertura.pdf>]
-<./schemes/subgrafo_AP-MS_all-gml.pdf, id=65, 1003.75pt x 1003.75pt>
+
+<./schemes/subgrafo_AP-MS_all-gml.pdf, id=33, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_AP-MS_all-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_AP-MS_all-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_AP-MS_all-gml.pdf used on input lin
-e 114.
+e 115.
 (pdftex.def)             Requested size: 77.75877pt x 77.74387pt.
 
-<./schemes/subgrafo_Y2H_all-gml.pdf, id=66, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_Y2H_all-gml.pdf, id=34, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_Y2H_all-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_Y2H_all-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_Y2H_all-gml.pdf used on input line 
-115.
+116.
 (pdftex.def)             Requested size: 77.75877pt x 77.74387pt.
 
-<./schemes/subgrafo_LIT_all-gml.pdf, id=67, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_LIT_all-gml.pdf, id=35, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_LIT_all-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_LIT_all-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_LIT_all-gml.pdf used on input line 
-116.
+117.
 (pdftex.def)             Requested size: 77.75877pt x 77.74387pt.
 
-<./schemes/venn_AP-MS-Y2H-LIT_links.pdf, id=68, 578.16pt x 397.485pt>
+<./schemes/venn_AP-MS-Y2H-LIT_links.pdf, id=36, 578.16pt x 397.485pt>
 File: ./schemes/venn_AP-MS-Y2H-LIT_links.pdf Graphic file (type pdf)
 
 <use ./schemes/venn_AP-MS-Y2H-LIT_links.pdf>
 Package pdftex.def Info: ./schemes/venn_AP-MS-Y2H-LIT_links.pdf used on input l
-ine 121.
+ine 122.
 (pdftex.def)             Requested size: 172.79846pt x 118.79759pt.
-
-<./schemes/venn2_coherence_yeast_AP-MS-yeast_LIT.pdf, id=69, 578.16pt x 433.62p
+ [3]
+<./schemes/venn2_coherence_yeast_AP-MS-yeast_LIT.pdf, id=44, 578.16pt x 433.62p
 t>
 File: ./schemes/venn2_coherence_yeast_AP-MS-yeast_LIT.pdf Graphic file (type pd
 f)
  <use ./schemes/venn2_coherence_yeast_AP-MS-yeast_LIT.pdf>
 Package pdftex.def Info: ./schemes/venn2_coherence_yeast_AP-MS-yeast_LIT.pdf us
-ed on input line 137.
+ed on input line 138.
 (pdftex.def)             Requested size: 75.60043pt x 56.69678pt.
 
-<./schemes/subgrafo_APMS_ap_ms_lit-gml.pdf, id=70, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_APMS_ap_ms_lit-gml.pdf, id=45, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_APMS_ap_ms_lit-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_APMS_ap_ms_lit-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_APMS_ap_ms_lit-gml.pdf used on inpu
-t line 138.
+t line 139.
 (pdftex.def)             Requested size: 48.60016pt x 48.59758pt.
 
-<./schemes/subgrafo_LIT_ap_ms_lit-gml.pdf, id=71, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_LIT_ap_ms_lit-gml.pdf, id=46, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_LIT_ap_ms_lit-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_LIT_ap_ms_lit-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_LIT_ap_ms_lit-gml.pdf used on input
- line 139.
+ line 140.
 (pdftex.def)             Requested size: 48.60016pt x 48.59758pt.
 
-<./schemes/venn2_coherence_yeast_AP-MS-yeast_Y2H.pdf, id=72, 578.16pt x 433.62p
+<./schemes/venn2_coherence_yeast_AP-MS-yeast_Y2H.pdf, id=47, 578.16pt x 433.62p
 t>
 File: ./schemes/venn2_coherence_yeast_AP-MS-yeast_Y2H.pdf Graphic file (type pd
 f)
  <use ./schemes/venn2_coherence_yeast_AP-MS-yeast_Y2H.pdf>
 Package pdftex.def Info: ./schemes/venn2_coherence_yeast_AP-MS-yeast_Y2H.pdf us
-ed on input line 144.
+ed on input line 145.
 (pdftex.def)             Requested size: 75.60043pt x 56.69678pt.
 
-<./schemes/subgrafo_APMS_ap_ms_y2h-gml.pdf, id=73, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_APMS_ap_ms_y2h-gml.pdf, id=48, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_APMS_ap_ms_y2h-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_APMS_ap_ms_y2h-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_APMS_ap_ms_y2h-gml.pdf used on inpu
-t line 145.
+t line 146.
 (pdftex.def)             Requested size: 48.60016pt x 48.59758pt.
 
-<./schemes/subgrafo_Y2H_ap_ms_y2h-gml.pdf, id=74, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_Y2H_ap_ms_y2h-gml.pdf, id=49, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_Y2H_ap_ms_y2h-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_Y2H_ap_ms_y2h-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_Y2H_ap_ms_y2h-gml.pdf used on input
- line 146.
+ line 147.
 (pdftex.def)             Requested size: 48.60016pt x 48.59758pt.
 
-<./schemes/venn2_coherence_yeast_Y2H-yeast_LIT.pdf, id=75, 578.16pt x 433.62pt>
+<./schemes/venn2_coherence_yeast_Y2H-yeast_LIT.pdf, id=50, 578.16pt x 433.62pt>
 File: ./schemes/venn2_coherence_yeast_Y2H-yeast_LIT.pdf Graphic file (type pdf)
 
 <use ./schemes/venn2_coherence_yeast_Y2H-yeast_LIT.pdf>
 Package pdftex.def Info: ./schemes/venn2_coherence_yeast_Y2H-yeast_LIT.pdf used
- on input line 151.
+ on input line 152.
 (pdftex.def)             Requested size: 75.60043pt x 56.69678pt.
 
-<./schemes/subgrafo_Y2H_y2h_lit-gml.pdf, id=76, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_Y2H_y2h_lit-gml.pdf, id=51, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_Y2H_y2h_lit-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_Y2H_y2h_lit-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_Y2H_y2h_lit-gml.pdf used on input l
-ine 152.
+ine 153.
 (pdftex.def)             Requested size: 48.60016pt x 48.59758pt.
 
-<./schemes/subgrafo_LIT_y2h_lit-gml.pdf, id=77, 1003.75pt x 1003.75pt>
+<./schemes/subgrafo_LIT_y2h_lit-gml.pdf, id=52, 1003.75pt x 1003.75pt>
 File: ./schemes/subgrafo_LIT_y2h_lit-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/subgrafo_LIT_y2h_lit-gml.pdf>
 Package pdftex.def Info: ./schemes/subgrafo_LIT_y2h_lit-gml.pdf used on input l
-ine 153.
+ine 154.
 (pdftex.def)             Requested size: 48.60016pt x 48.59758pt.
-) [4 <./schemes/subgrafo_AP-MS_all-gml.pdf> <./schemes/subgrafo_Y2H_all-gml.pdf
+) [4 <./schemes/venn_AP-MS-Y2H-LIT_covertura.pdf> <./schemes/subgrafo_AP-MS_all
+-gml.pdf
 
+pdfTeX warning: pdflatex (file ./schemes/subgrafo_AP-MS_all-gml.pdf): PDF inclu
+sion: multiple pdfs with page group included in a single page
+> <./schemes/subgrafo_Y2H_all-gml.pdf
 
 pdfTeX warning: pdflatex (file ./schemes/subgrafo_Y2H_all-gml.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
@@ -795,7 +799,7 @@ lusion: multiple pdfs with page group included in a single page
 pdfTeX warning: pdflatex (file ./schemes/subgrafo_LIT_y2h_lit-gml.pdf): PDF inc
 lusion: multiple pdfs with page group included in a single page
 >] (./seba.tex
-<figuras/FrutRein-eps-converted-to.pdf, id=198, 602.25pt x 602.25pt>
+<figuras/FrutRein-eps-converted-to.pdf, id=197, 602.25pt x 602.25pt>
 File: figuras/FrutRein-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/FrutRein-eps-converted-to.pdf>
@@ -803,7 +807,7 @@ Package pdftex.def Info: figuras/FrutRein-eps-converted-to.pdf used on input li
 ne 11.
 (pdftex.def)             Requested size: 301.12425pt x 301.12425pt.
 
-<figuras/KamKaw-eps-converted-to.pdf, id=199, 602.25pt x 602.25pt>
+<figuras/KamKaw-eps-converted-to.pdf, id=198, 602.25pt x 602.25pt>
 File: figuras/KamKaw-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/KamKaw-eps-converted-to.pdf>
@@ -811,7 +815,7 @@ Package pdftex.def Info: figuras/KamKaw-eps-converted-to.pdf used on input line
  25.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
-<figuras/Drl-eps-converted-to.pdf, id=200, 602.25pt x 602.25pt>
+<figuras/Drl-eps-converted-to.pdf, id=199, 602.25pt x 602.25pt>
 File: figuras/Drl-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Drl-eps-converted-to.pdf>
@@ -819,7 +823,7 @@ Package pdftex.def Info: figuras/Drl-eps-converted-to.pdf used on input line 26
 .
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
-<figuras/Random-eps-converted-to.pdf, id=201, 602.25pt x 602.25pt>
+<figuras/Random-eps-converted-to.pdf, id=200, 602.25pt x 602.25pt>
 File: figuras/Random-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Random-eps-converted-to.pdf>
@@ -827,7 +831,7 @@ Package pdftex.def Info: figuras/Random-eps-converted-to.pdf used on input line
  33.
 (pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
 
-<figuras/Multi-eps-converted-to.pdf, id=202, 602.25pt x 602.25pt>
+<figuras/Multi-eps-converted-to.pdf, id=201, 602.25pt x 602.25pt>
 File: figuras/Multi-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Multi-eps-converted-to.pdf>
@@ -837,7 +841,7 @@ Package pdftex.def Info: figuras/Multi-eps-converted-to.pdf used on input line
  [6] [7 <./figuras/FrutRein-eps-converted-to.pdf>] [8 <./figuras/KamKaw-eps-con
 verted-to.pdf> <./figuras/Drl-eps-converted-to.pdf> <./figuras/Random-eps-conve
 rted-to.pdf> <./figuras/Multi-eps-converted-to.pdf>]
-<figuras/Histograma-eps-converted-to.pdf, id=243, 578.16pt x 433.62pt>
+<figuras/Histograma-eps-converted-to.pdf, id=242, 578.16pt x 433.62pt>
 File: figuras/Histograma-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Histograma-eps-converted-to.pdf>
@@ -855,7 +859,7 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                 on input line 59.
 
 [9] [10 <./figuras/Histograma-eps-converted-to.pdf>]
-<figuras/Parte_c0-eps-converted-to.pdf, id=292, 602.25pt x 602.25pt>
+<figuras/Parte_c0-eps-converted-to.pdf, id=291, 602.25pt x 602.25pt>
 File: figuras/Parte_c0-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c0-eps-converted-to.pdf>
@@ -863,7 +867,7 @@ Package pdftex.def Info: figuras/Parte_c0-eps-converted-to.pdf used on input li
 ne 84.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 
-<figuras/Parte_c1-eps-converted-to.pdf, id=293, 602.25pt x 602.25pt>
+<figuras/Parte_c1-eps-converted-to.pdf, id=292, 602.25pt x 602.25pt>
 File: figuras/Parte_c1-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c1-eps-converted-to.pdf>
@@ -871,7 +875,7 @@ Package pdftex.def Info: figuras/Parte_c1-eps-converted-to.pdf used on input li
 ne 85.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 
-<figuras/Parte_c2-eps-converted-to.pdf, id=294, 602.25pt x 602.25pt>
+<figuras/Parte_c2-eps-converted-to.pdf, id=293, 602.25pt x 602.25pt>
 File: figuras/Parte_c2-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c2-eps-converted-to.pdf>
@@ -879,7 +883,7 @@ Package pdftex.def Info: figuras/Parte_c2-eps-converted-to.pdf used on input li
 ne 86.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 
-<figuras/Parte_c3-eps-converted-to.pdf, id=295, 602.25pt x 602.25pt>
+<figuras/Parte_c3-eps-converted-to.pdf, id=294, 602.25pt x 602.25pt>
 File: figuras/Parte_c3-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Parte_c3-eps-converted-to.pdf>
@@ -887,7 +891,7 @@ Package pdftex.def Info: figuras/Parte_c3-eps-converted-to.pdf used on input li
 ne 87.
 (pdftex.def)             Requested size: 168.62885pt x 168.62885pt.
 
-<figuras/Nodos_removidos-eps-converted-to.pdf, id=296, 578.16pt x 433.62pt>
+<figuras/Nodos_removidos-eps-converted-to.pdf, id=295, 578.16pt x 433.62pt>
 File: figuras/Nodos_removidos-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figuras/Nodos_removidos-eps-converted-to.pdf>
@@ -904,14 +908,14 @@ Overfull \hbox (82.31125pt too wide) in paragraph at lines 8--11
 h.Graph.Read[]GML()
  []
 
-<figuras/ej03_Pk.png, id=369, 407.121pt x 287.1528pt>
+<figuras/ej03_Pk.png, id=368, 407.121pt x 287.1528pt>
 File: figuras/ej03_Pk.png Graphic file (type png)
 
 <use figuras/ej03_Pk.png>
 Package pdftex.def Info: figuras/ej03_Pk.png used on input line 15.
 (pdftex.def)             Requested size: 284.98276pt x 201.00557pt.
 
-<figuras/ej03_Pk_igraph.png, id=371, 390.258pt x 270.7716pt>
+<figuras/ej03_Pk_igraph.png, id=370, 390.258pt x 270.7716pt>
 File: figuras/ej03_Pk_igraph.png Graphic file (type png)
 
 <use figuras/ej03_Pk_igraph.png>
@@ -926,14 +930,14 @@ usan-do la ru-ti-na \OT1/cmtt/m/n/10.95 igraph.ipower[]law[]fit()\OT1/cmr/m/n/1
  []
 
 ) [14] [15 <./figuras/ej03_Pk.png> <./figuras/ej03_Pk_igraph.png>] (./raul.tex
-<./schemes/netscience-gml.pdf, id=381, 1003.75pt x 1003.75pt>
+<./schemes/netscience-gml.pdf, id=380, 1003.75pt x 1003.75pt>
 File: ./schemes/netscience-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/netscience-gml.pdf>
 Package pdftex.def Info: ./schemes/netscience-gml.pdf used on input line 18.
 (pdftex.def)             Requested size: 108.0011pt x 107.99292pt.
 
-<./schemes/as-22july06-gml.pdf, id=382, 1003.75pt x 1003.75pt>
+<./schemes/as-22july06-gml.pdf, id=381, 1003.75pt x 1003.75pt>
 File: ./schemes/as-22july06-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/as-22july06-gml.pdf>
@@ -952,7 +956,7 @@ Package pdftex.def Info: ./schemes/yeast_Y2H-txt.pdf used on input line 31.
 
 pdfTeX warning: pdflatex (file ./schemes/as-22july06-gml.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <./schemes/mixing_netscience-gml.pdf, id=389, 751.60799pt x 516.73048pt>
+>] <./schemes/mixing_netscience-gml.pdf, id=388, 751.60799pt x 516.73048pt>
 File: ./schemes/mixing_netscience-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/mixing_netscience-gml.pdf>
@@ -960,7 +964,7 @@ Package pdftex.def Info: ./schemes/mixing_netscience-gml.pdf used on input line
  49.
 (pdftex.def)             Requested size: 161.9989pt x 111.37085pt.
 
-<./schemes/mixing_as-22july06-gml.pdf, id=390, 751.60799pt x 516.73048pt>
+<./schemes/mixing_as-22july06-gml.pdf, id=389, 751.60799pt x 516.73048pt>
 File: ./schemes/mixing_as-22july06-gml.pdf Graphic file (type pdf)
 
 <use ./schemes/mixing_as-22july06-gml.pdf>
@@ -968,7 +972,7 @@ Package pdftex.def Info: ./schemes/mixing_as-22july06-gml.pdf used on input lin
 e 53.
 (pdftex.def)             Requested size: 161.9989pt x 111.37085pt.
 
-<./schemes/mixing_yeast_AP-MS-txt.pdf, id=391, 751.60799pt x 516.73048pt>
+<./schemes/mixing_yeast_AP-MS-txt.pdf, id=390, 751.60799pt x 516.73048pt>
 File: ./schemes/mixing_yeast_AP-MS-txt.pdf Graphic file (type pdf)
 
 <use ./schemes/mixing_yeast_AP-MS-txt.pdf>
@@ -976,7 +980,7 @@ Package pdftex.def Info: ./schemes/mixing_yeast_AP-MS-txt.pdf used on input lin
 e 58.
 (pdftex.def)             Requested size: 161.9989pt x 111.37085pt.
 
-<./schemes/mixing_yeast_Y2H-txt.pdf, id=392, 751.60799pt x 516.73048pt>
+<./schemes/mixing_yeast_Y2H-txt.pdf, id=391, 751.60799pt x 516.73048pt>
 File: ./schemes/mixing_yeast_Y2H-txt.pdf Graphic file (type pdf)
 
 <use ./schemes/mixing_yeast_Y2H-txt.pdf>
@@ -1002,7 +1006,7 @@ sion: multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./schemes/mixing_yeast_Y2H-txt.pdf): PDF inclusi
 on: multiple pdfs with page group included in a single page
->] <./schemes/assort_netscience-gml_loglog.pdf, id=501, 578.16pt x 397.485pt>
+>] <./schemes/assort_netscience-gml_loglog.pdf, id=500, 578.16pt x 397.485pt>
 File: ./schemes/assort_netscience-gml_loglog.pdf Graphic file (type pdf)
 
 <use ./schemes/assort_netscience-gml_loglog.pdf>
@@ -1010,7 +1014,7 @@ Package pdftex.def Info: ./schemes/assort_netscience-gml_loglog.pdf used on inp
 ut line 111.
 (pdftex.def)             Requested size: 161.9989pt x 111.37389pt.
 
-<./schemes/assort_as-22july06-gml_loglog.pdf, id=502, 578.16pt x 397.485pt>
+<./schemes/assort_as-22july06-gml_loglog.pdf, id=501, 578.16pt x 397.485pt>
 File: ./schemes/assort_as-22july06-gml_loglog.pdf Graphic file (type pdf)
 
 <use ./schemes/assort_as-22july06-gml_loglog.pdf>
@@ -1018,7 +1022,7 @@ Package pdftex.def Info: ./schemes/assort_as-22july06-gml_loglog.pdf used on in
 put line 115.
 (pdftex.def)             Requested size: 161.9989pt x 111.37389pt.
 
-<./schemes/assort_yeast_AP-MS-txt_loglog.pdf, id=503, 578.16pt x 397.485pt>
+<./schemes/assort_yeast_AP-MS-txt_loglog.pdf, id=502, 578.16pt x 397.485pt>
 File: ./schemes/assort_yeast_AP-MS-txt_loglog.pdf Graphic file (type pdf)
 
 <use ./schemes/assort_yeast_AP-MS-txt_loglog.pdf>
@@ -1026,22 +1030,15 @@ Package pdftex.def Info: ./schemes/assort_yeast_AP-MS-txt_loglog.pdf used on in
 put line 120.
 (pdftex.def)             Requested size: 161.9989pt x 111.37389pt.
 
-<./schemes/assort_yeast_Y2H-txt_loglog.pdf, id=504, 578.16pt x 397.485pt>
+<./schemes/assort_yeast_Y2H-txt_loglog.pdf, id=503, 578.16pt x 397.485pt>
 File: ./schemes/assort_yeast_Y2H-txt_loglog.pdf Graphic file (type pdf)
 
 <use ./schemes/assort_yeast_Y2H-txt_loglog.pdf>
 Package pdftex.def Info: ./schemes/assort_yeast_Y2H-txt_loglog.pdf used on inpu
 t line 124.
 (pdftex.def)             Requested size: 161.9989pt x 111.37389pt.
- [18]
-Overfull \hbox (86.30234pt too wide) in paragraph at lines 161--162
-[]\OT1/cmr/m/n/10.95 Una im-ple-men-ta-ci^^Son del al-go-rit-mo des-cri-to se p
-ue-de en-con-trar en \OT1/cmtt/m/n/10.95 assortative[]newman.py\OT1/cmr/m/n/10.
-95 . 
- []
-
-[19 <./schemes/assort_netscience-gml_loglog.pdf> <./schemes/assort_as-22july06-
-gml_loglog.pdf
+ [18] [19 <./schemes/assort_netscience-gml_loglog.pdf> <./schemes/assort_as-22j
+uly06-gml_loglog.pdf
 
 pdfTeX warning: pdflatex (file ./schemes/assort_as-22july06-gml_loglog.pdf): PD
 F inclusion: multiple pdfs with page group included in a single page
@@ -1088,10 +1085,10 @@ pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share
 /texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmtt10.pfb>
-Output written on informe.pdf (22 pages, 10236645 bytes).
+Output written on informe.pdf (22 pages, 10237174 bytes).
 PDF statistics:
- 746 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
+ 745 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
  201 words of extra memory for PDF output out of 10000 (max. 10000000)
 

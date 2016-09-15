@@ -1,12 +1,12 @@
 \section{Ejercicio 4}
-La asortatividad/homofilia es la tendencia de un nodo, de una red, se conecte con otros 
-de caracteristicas similares, esto en terminos mathematicos es evaluar la correlaci\'on
+La asortatividad/homofilia es la tendencia de que un nodo, de una red, se conecte con otros 
+de caracteristicas similares, esto en terminos matem\'aticos es evaluar la correlaci\'on
 de links entre nodos del mismo tipo \citep{newman2003}. Esta propiedad tiende a ser caracteristica 
 para tipos de redes distintas: En redes de amistad por ejemplo se tiende a hacer uniones entre
 nodos \textit{parecidos}, mientras que en redes biologicas, los \textit{hubs} tienes a evadirse 
 entre ellos y asociarse con nodos de menor grado \citep{newman,barabasi}. 
 
-En este ejercicio se plantea evaluar la asortatividad de cuatro redes (dos sociales y dos biol\'ogicas) a trav\'es
+En este ejercicio se plantea evaluar la asortatividad de cuatro redes (una social, una tecnol\'ogica y dos biol\'ogicas) a trav\'es
 de dos m\'etodos distintos: Mediante la estimaci\'on de la correlaci\'on de grado a partir del grado medio del
 vecindario de un nodo \citep{barabasi}; y a trav\'es del Coeficiente de Correlaci\'on de Grado propuesto por Newman
 \citep{newman2003,newman}.
@@ -82,7 +82,7 @@ ello consideramos el grado medio de los vecinos $k_{nn}$ de un nodo de grado $k$
     k_{nn}(k) = \sum_{k'} k' P(k'|k)
 \end{align*}
 este promedio est\'a hecho sobre la probabilidad de que: dado un nodo de grado $k$, tenga un vecino de grado $k'$.
-Para el caso de una red neutra, en que no existe correlacion entre $k$ y $k'$ ($\text{cov}\left(k,k'\right)=0$) se tiene que
+Para el caso de una red neutra, en que no existe correlaci\'on entre $k$ y $k'$ ($\text{cov}\left(k,k'\right)=0$) se tiene que
 \begin{align*}
     P(k'|k) = P(k') \equiv q_{k'},
 \end{align*}
@@ -158,7 +158,9 @@ $ S_1 = \sum_i k_i $, $ S_2 = \sum_i k_i^2 $ y $ S_3 = \sum_i k_i^3 $, y reempla
     r &= \frac{S_1S_e - S_2^2}{S_1S_3 - S_2^2}
 \end{align}
 
-Una implementaci\'on del algoritmo descrito se puede encontrar en \texttt{assortative\_newman.py}. 
+Una implementaci\'on del algoritmo descrito se puede encontrar en \linebreak \texttt{assortative\_newman.py}. 
+
+
 
 \subsection{Discusi\'on}
 
@@ -192,3 +194,5 @@ asortatividad reportada. Sin embargo, es necesario analizar rigurosamente tipo d
 (si son disortatividades estructurales o no). Los ultimos dos casos (NETSCIENCE y Y2H) responden a los comportamientos
 usuales para sus categor\'ias (redes sociales y biol\'ogicas respectivamente).
 
+Finalmente es importante mensionar que ambos m\'etodos (estimar $\mu$ o $r$) se comportan equivalentemente, es decir
+$\mu > 0 \Rightarrow r>0$, $\mu = 0 \Rightarrow r = 0$ o $\mu < 0 \Rightarrow r < 0$ \citep{barabasi}.
