@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.12.17)  14 SEP 2016 23:36
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2013.12.17)  15 SEP 2016 08:44
 entering extended mode
  %&-line parsing enabled.
 **informe.tex
@@ -587,36 +587,52 @@ h.Graph.Read[]GML()
 <figuras/ej03_Pk.png, id=208, 407.121pt x 287.1528pt>
 File: figuras/ej03_Pk.png Graphic file (type png)
 
-<use figuras/ej03_Pk.png>) [11 <./figuras/ej03_Pk.png>] (./informe.aux) ) 
+<use figuras/ej03_Pk.png>
+<figuras/ej03_Pk_igraph.png, id=210, 390.258pt x 270.7716pt>
+File: figuras/ej03_Pk_igraph.png Graphic file (type png)
+
+<use figuras/ej03_Pk_igraph.png>
+Overfull \hbox (73.5368pt too wide) in paragraph at lines 26--27
+\OT1/cmr/m/n/10.95 dis-tribu-ci^^Son power-law $\OML/cmm/m/it/10.95 P[] \OMS/cm
+sy/m/n/10.95 ^^X \OML/cmm/m/it/10.95 k[]$\OT1/cmr/m/n/10.95 , pero es-ta vez us
+-an-do la ruti-na \OT1/cmtt/m/n/10.95 igraph.ipower[]law[]fit()\OT1/cmr/m/n/10.
+95 ,
+ []
+
+) [11] [12 <./figuras/ej03_Pk.png> <./figuras/ej03_Pk_igraph.png>]
+(./informe.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4038 strings out of 495061
- 57047 string characters out of 1182620
+ 4043 strings out of 495061
+ 57188 string characters out of 1182620
  152842 words of memory out of 3000000
- 7156 multiletter control sequences out of 15000+50000
+ 7160 multiletter control sequences out of 15000+50000
  13186 words of font info for 47 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
  36i,13n,38p,890b,454s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/
-share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-texlive/fo
-nts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/fonts/type1/
-public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsf
-onts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmm
-i6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr
-/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf
--texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-texlive/fon
-ts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/type1/pub
-lic/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/
-cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb><
-/usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/
-texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texmf-texliv
-e/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fonts/type
-1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/public/am
-sfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
-mtt10.pfb>
-Output written on informe.pdf (12 pages, 942004 bytes).
+</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-texlive/fonts/type1/pub
+lic/amsfonts/cm/cmmi10.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfont
+s/cm/cmmi6.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/sha
+re/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-tex
+live/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texmf-texlive/fonts/t
+ype1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/fonts/type1/public/a
+msfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cm
+r9.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy10.pfb></us
+r/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texm
+f-texlive/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-texlive/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfo
+nts/cm/cmtt10.pfb>
+Output written on informe.pdf (13 pages, 978040 bytes).
 PDF statistics:
- 275 PDF objects out of 1000 (max. 8388607)
+ 281 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 

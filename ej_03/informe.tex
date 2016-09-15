@@ -12,7 +12,8 @@ Exploramos visualmente la tendencia de $P_k$ en otras escalas lineales y semi-lo
 
 \begin{figure}
 \centering
-\includegraphics[scale=.5]{figuras/ej03_Pk}
+\includegraphics[scale=.7]{figuras/ej03_Pk}
+\includegraphics[scale=.7]{figuras/ej03_Pk_igraph}
 \caption{Distribuci\'on de probabilidad $P_k$ de los valores de grado $k$ de la red de Mark Newman.
 Observamos que la distribuci\'on tiene fuerte comportamiento tipo power-law, especialmente en el rango $k \sim (3-400)$.}
 \label{fig:ej03_1}
@@ -21,3 +22,8 @@ Observamos que la distribuci\'on tiene fuerte comportamiento tipo power-law, esp
 
 
 \subsection{Parte b}
+
+A continuaci\'on, repetimos el c\'alculo del ajuste para el exponente de la distribuci\'on power-law $P_k \sim k^{-\alpha}$, pero esta vez usando la rutina \texttt{igraph.ipower\_law\_fit()}, el cual entrega valores de p-value=$0.5$, $k_{min}$=$3.9$, y del exponente $\alpha=1.37$.
+
+
+
