@@ -4,7 +4,7 @@ En esta secci\'on consideramos una red (ver archivo \texttt{as-22july06.gml}) cr
 
 
 \subsection{Parte a}
-\def \ScriptA {\texttt{ej\_03/parteA.py}}
+\def \ScriptA {\texttt{ej\_03/script.py}}
 
 Primero hallamos todos los grados $k$ de la red, usando la rutina \texttt{igraph.\\
 Graph.Read\_GML()} de la libreria \texttt{igraph} (version 0.7.1) de Python.
@@ -26,7 +26,7 @@ Observamos que la distribuci\'on tiene fuerte comportamiento tipo power-law, esp
 
 
 \subsection{Parte b}
-\def \ScriptB {\texttt{ej\_03/parteB.py}}
+\def \ScriptB {\texttt{ej\_03/script.py}}
 
 A continuaci\'on, repetimos el c\'alculo del ajuste para el exponente de la distribuci\'on power-law $P_k \sim k^{-\alpha}$, pero esta vez usando la rutina \texttt{igraph.\\
 ipower\_law\_fit()} (wrapper alrededor de c\'odigo C), el cual entrega valores de p-value=$0.5$, $k_{min}$=$3.9$, y del exponente $\alpha=1.37$.
