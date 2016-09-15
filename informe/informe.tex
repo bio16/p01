@@ -8,9 +8,10 @@
 \usepackage[font=small,labelfont=bf]{caption}
 \usepackage{subcaption}
 \usepackage{authblk}
+\usepackage{natbib}
 
 \captionsetup[table]{name=Tabla}
-\renewcommand{\thetable}{\Roman{figure}}
+\renewcommand{\thetable}{\Roman{table}}
 \newcommand{\mean}[1]{\left\langle#1\right\rangle}
 %\newcommand{\eqref}[1]{Ec.~\ref{#1}}
 
@@ -39,13 +40,14 @@
 
 \tableofcontents
 
+\newpage
 \input{mariela}
-
+\newpage
 \input{seba}
-
+\newpage
 %    \input{jimmy}
-
-%    \input{raul}
-
-
+\newpage
+    \input{raul}
+\bibliographystyle{plainnat}
+\bibliography{biblio}
 \end{document}
